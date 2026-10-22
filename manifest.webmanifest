@@ -1,0 +1,11 @@
+{
+  "name": "Shiny Teeth",
+  "short_name": "Shiny Teeth",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5eb",
+  "theme_color": "#f7f5eb",
+  "icons": [{"src":"./assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
