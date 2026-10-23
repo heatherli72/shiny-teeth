@@ -1,8 +1,8 @@
-import { SONG, PHRASES, SECTIONS } from './song-data.js';
+import { SONG, PHRASES, SECTIONS } from './song-data.js?v=ana-child-20261023';
 import { LearningEngine } from './engine.js';
 import { PerformanceStudio } from './performance.js';
-import { renderStudio, renderLyricWords } from './studio-view.js';
-import { WORDS, renderScene, wordProgress } from './learning-content.js';
+import { renderStudio, renderLyricWords } from './studio-view.js?v=ana-child-20261023';
+import { WORDS, renderScene, wordProgress } from './learning-content.js?v=ana-child-20261023';
 import { lyricWindowState, updateLyricWindow } from './lyric-window.js';
 import { buildTimeline, subtitleAt, formatTime, isCapturing, musicalLeadInStart, practiceSections } from './studio-model.js';
 

@@ -1,5 +1,5 @@
 import { formatTime, isCapturing, subtitleAt, latestPhraseTakes } from './studio-model.js';
-import { renderScene, tokenizeLyric, WORDS } from './learning-content.js';
+import { renderScene, tokenizeLyric, WORDS } from './learning-content.js?v=ana-child-20261023';
 import { lyricWindowState, renderLyricWindow } from './lyric-window.js';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));

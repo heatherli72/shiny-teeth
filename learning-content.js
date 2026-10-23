@@ -10,7 +10,7 @@ export const DICTIONARY_SOURCES = Object.freeze([
 ]);
 
 export const normalizeWord = value => String(value ?? '').replace(/[’‘]/g, "'").toLowerCase();
-export const wordAudioUrl = key => `./assets/audio/words/${normalizeWord(key).replace(/'/g, '')}.mp3`;
+export const wordAudioUrl = key => `./assets/audio/words/${normalizeWord(key).replace(/'/g, '')}.mp3?v=ana-child-20261023`;
 
 const vocabulary = {
   a: ['ə', '一个；一'], adding: ['ˈædɪŋ', '增添；使更多'], all: ['ɔːl', '全部；所有'], an: ['ən', '一个（用在元音前）'],
